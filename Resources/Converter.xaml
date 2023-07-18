@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:command="clr-namespace:FoodeLive.Converter"
+                    >
+    <command:CommandConverter x:Key="CommandConverter"/>
+    <command:MoneyConverter x:Key="MoneyConverter"/>
+    <command:BooleanReflectConverter x:Key="BooleanReflectConverter"/>
+    <command:ImageSourceConverter x:Key="ImageSourceConverter"/>
+    <command:DisplayConverter x:Key="DisplayConverter"/>
+    <command:TableStatusConverter x:Key="TableStatusConverter"/>
+    <command:FoodStatusConverter x:Key="FoodStatusConverter"/>
+    <command:DateCountConverter x:Key="DateCountConverter" />
+    <command:NullAvatarConverter x:Key="NullAvatarConverter" />
+</ResourceDictionary>
